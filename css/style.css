@@ -228,7 +228,7 @@ main .site-title {
 }
 
 main .site-title {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/background.jpeg");
     background-size: cover;
     height: 90vh;
     display: flex;
@@ -243,7 +243,7 @@ main .site-background {
     width: 60vw;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 70%;
 }
 
 main .site-title .site-intro {
