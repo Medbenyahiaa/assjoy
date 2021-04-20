@@ -231,6 +231,7 @@ main .site-title {
     background-image: url("../images/background.jpeg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 90vh;
     display: flex;
     justify-content: center;
