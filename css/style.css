@@ -275,7 +275,7 @@ main .round-card {
 
 main .tabs-elements {
     display: flex;
-    height: 30rem;
+    height: 40rem;
     width: 100vw;
 }
 
@@ -295,15 +295,15 @@ main .tabs-elements .cover {
 }
 
 main .tabs-elements #_target_1 {
-    background-image: url(../images/background.jpeg);
+    background-image: url(../images/Ftour.jpg);
 }
 
 main .tabs-elements #_target_2 {
-    background-image: url(../images/background.jpeg);
+    background-image: url(../images/don\ de\ sang.jpg);
 }
 
 main .tabs-elements #_target_3 {
-    background-image: url(../images/background.jpeg);
+    background-image: url(../images/donmouton.jpg);
 }
 
 main .tabs-elements #_target_4 {
