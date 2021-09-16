@@ -49,7 +49,7 @@ $(document).ready(function () {
 
     Swal.fire({
         titleText: "Faites un don sur :",
-        html: "RIB :</br><span class='rib'>230 810 3778682211022100 73</span></br>Titulaire : Monsieur Imad EL KRIMI",
+        html: "RIB :</br><span class='rib'>127 480 2111119145730008 58</span></br>Titulaire : Madame SALMA BOUTALLAKA",
         showClass: {
             popup: "animate__animated animate__fadeInDown",
         },

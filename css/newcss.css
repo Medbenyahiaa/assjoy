@@ -1,0 +1,47 @@
+*{box-sizing: border-box}
+
+img{max-width: 100%}
+
+.slider_focus{
+
+max-width: 600px;
+margin: 2rem auto
+	
+	}	
+	
+.slider_focus ul{
+	
+display: flex;
+padding-bottom: 66.67%;/* ratio pour le responsive */
+position: relative;
+overflow: hidden;
+list-style-type: none;
+margin:0;
+
+	
+	}
+
+.slider_focus ul li a img{
+
+flex: 1;/*les photos occupent la même place selon la largeur du conteneur*/
+padding: .5rem;
+	
+	}
+
+.slider_focus ul li span img{
+
+position: absolute;
+bottom: 0;
+left: -100%;
+opacity: 0;
+transition: all .6s
+	
+	}
+
+
+.slider_focus ul li:focus-within span img{
+	
+left: 0;
+opacity: 1
+	
+	}

@@ -13,12 +13,12 @@ body {
     --text-light: #686666da;
     --bg-color: #0f0f0f;
     --white: #ffffff;
-    --midnight: #104f55;
+    --midnight: #d4c711;
     --blue: #34519e;
     --dark-blue: #090925;
 
     /* gradient color   */
-    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --sky:  linear-gradient(120deg, #27578d 0%, #00298d 100%);
 
     /*      theme font-family   */
     --Abel: "Abel", cursive;
@@ -125,7 +125,7 @@ p {
 /* --------------- navbar ----------------- */
 
 .nav {
-    background: white;
+    background: rgb(57, 47, 199);
     padding: 0 2rem;
     height: 10vh;
     width: 100vw;
@@ -150,7 +150,7 @@ p {
 
 .nav .toggle-collapse .toggle-icons i {
     font-size: 1.4rem;
-    color: var(--text-gray);
+    color: var(--text-white);
 }
 
 .collapse {
@@ -168,8 +168,8 @@ p {
     font-size: 1.1rem;
     position: relative;
     font-family: var(--Roboto);
-    border-right: 1px solid var(--blue);
-    border-left: 1px solid var(--blue);
+    border-right: 1px solid var(--white);
+    border-left: 1px solid var(--white);
 }
 
 .nav .nav-items .nav-link:last-child {
@@ -203,7 +203,7 @@ p {
 }
 
 .nav .social i:hover {
-    color: #a1c4cf;
+    color: #eeeeee;
 }
 
 /* -------x------- navbar ---------x------- */
@@ -213,7 +213,7 @@ p {
 /* --------------- Site title ---------------- */
 
 main .site-title {
-    background-image: url("../images/background.jpeg");
+    background-image: url("../images/2.jpeg");
     background-size: cover;
     background-position: center center;
     height: 90vh;
@@ -232,7 +232,7 @@ main .site-background-blur {
 
 main .site-title .site-intro {
     text-align: center;
-    color: var(--white);
+    color: #f0c415;
 }
 
 main .logo-pic {
@@ -295,19 +295,22 @@ main .tabs-elements .cover {
 }
 
 main .tabs-elements #_target_1 {
-    background-image: url(../images/Ftour.jpeg);
+    background-image: url(../images/ftour.jpeg);
 }
 
 main .tabs-elements #_target_2 {
-    background-image: url(../images/members/bloddna.jpeg);
+    background-image: url(../images/dondesang.jpeg);
 }
 
 main .tabs-elements #_target_3 {
-    background-image: url(../images/donmouton.jpg);
+    background-image: url(../images/mouton.jpeg);
 }
 
 main .tabs-elements #_target_4 {
-    background-image: url(../images/background.jpeg);
+    background-image: url(../images/clean.jpeg);
+}
+main .tabs-elements #_target_5 {
+    background-image: url(../images/1.jpeg);
 }
 
 main .tabs-elements .tabs li {
@@ -338,7 +341,7 @@ main .members {
 
 main .members .row-1,
 .row-2,
-.row-3 {
+.row-3,.row-4 {
     display: flex;
     flex-wrap: wrap;
     text-align: center;

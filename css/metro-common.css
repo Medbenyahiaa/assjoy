@@ -6749,7 +6749,7 @@ body {
     line-height: 1.5;
     font-style: normal;
     font-weight: 400;
-    color: #212121;
+    color: #d4c711;
 }
 .img-container,
 .img-fluid,
@@ -18534,7 +18534,7 @@ pre code {
 }
 a:not([class]) {
     position: relative;
-    color: #0366d6;
+    color: #ffffff;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
@@ -18542,7 +18542,7 @@ a:not([class]) {
     box-shadow: none;
 }
 a:not([class]):hover {
-    color: #0056b3;
+    color: #ffffff;
     text-decoration: underline;
 }
 a:not([class]):not([href]):not([tabindex]) {
